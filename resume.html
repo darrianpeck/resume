@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darrian Peck</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #resume {
+            border: 2px solid black;
+            padding: 20px;
+            width: 60%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 23px;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        }
+
+        #head {
+            text-align: center;
+            background-color: lightgray;
+            box-shadow: 8px 8px gray;
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin: 10px;
+            display: inline;
+        }
+
+        a {
+            color: black;
+            font-size: 18px;
+        }
+
+        a:hover {
+            font-weight: bold;
+        }
+
+        #profile, #experience, #education, #skills{
+            border-bottom: 5px solid black;
+            width: 80%;
+        }
+
+        #gc, #ab, #dmacc, #hcc {
+            padding-bottom: 10px;
+            border-bottom: 1px solid black;
+        }
+
+        #socialMedia {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+
+
+        /*RESPONSIVE*/
+        @media only screen and (max-width: 800px) {
+            #resume {
+                border: none;
+                padding: 20px;
+                width: 80%;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            #head {
+                text-align: center;
+                background-color: white;
+                padding: 10px;
+                box-shadow: none;
+            }
+
+            li {
+                padding: 0px;
+                display: block;
+            }
+
+            .column {
+                width: 100%;
+            }
+
+            #profile, #experience, #education, #skills{
+            width: 100%;
+        }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="resume">
+        <div id="head" class="row">
+            <h1 class="column">Darrian Peck</h1>
+            <h3 style="text-align: center;">Web Developer</h3>
+            <div id="contactInfo" class="column">
+                <p><b>Email: </b>darrian98@me.com</p>
+                <p><a href="http://darrianpeck.com/">Darrian Peck's Portfolio</a></p><!--do something different with this, 2 columns??-->
+            </div><!--close contactInfo-->
+        </div><!--close head-->
+
+        <div id="profile">
+            <h2>PROFILE</h2>
+            <p>Driven web development student with a passion to explore creativity. Great puzzle solving skills; figuring what is needed to complete 
+                the task. Determined to create appealing and easily navigated websites. Motivated to utilize all skills in order to execute work that 
+                meets needs of every client. Eager to learn as much as a mind can about the tech world.
+            </p>
+        </div><!--close profile-->
+
+        <div id="experience">
+            <h2>EXPERIENCE</h2>
+            <div id="gc">
+                <h3>Server/Bartender : September 2020 - July 2022</h3>
+                <h4>Granite City Food and Brewery, Roseville, MN</h4>
+                <p>Handled customer inquiries and complaints. Memorized and prepared various drink recipes. 
+                    Processed payments and operated cash register. Went above and beyond when asked to complete a task. 
+                    Maintained cleanliness and organization of the bar area. Restocked supplies and ingredients. Handled 
+                    problems quickly and efficiently.
+                </p>
+            </div><!--close gc-->
+
+            <div id="ab">
+                <h3>Server/Bartender/Assistant Manager : August 2017 - August 2020</h3>
+                <h4>Applebee's, Cedar Falls, IA</h4>
+                <p>Collaborated with kitchen staff to coordinate food and beverage orders. Provided excellent customer 
+                    service and addressed any customer concerns or complaints. Prepared cocktails and other beverages. Followed 
+                    all safety and sanitation policies and procedures. Assisted other staff members as needed.
+                </p>
+            </div><!--close ab-->
+        </div><!--close experience-->
+
+        <div id="education"> 
+            <h2>EDUCATION</h2>
+            <div id="dmacc">
+                <h3>Web Development</h3>
+                <h4>Des Moines Area Community College : August 2022 - Current</h4>
+                <p><b>Program GPA:</b> 3.83</p>
+                <p><b>Graduate Year:</b> Spring 2024</p>
+                <p><b>Courses:</b> HTML/CSS, JavaScript, PHP, WordPress, Web Design, Adobe Photoshop, Marketing, E-Commerce </p>
+                <p>PTK Honors Society Member since March 2023</p>
+            </div><!--close dmacc-->
+            <div id="hcc">
+                <h3>General Education</h3>
+                <h4>Hawkeye Community College : August 2017 - May 2019</h4>
+                <p><b>General Educaiton Courses:</b> Ethics, Math, A & P, Sociology</p>
+
+                <h4>Iowa Central Community College : 2016 - 2017</h4>
+                <p><b>General Educaiton Courses:</b> Composition, Public Speaking, Psychology</p>
+            </div><!--close hcc-->
+        </div><!--close education-->
+
+        <div id="skills">
+            <h2>SKILLS</h2>
+            <ul>
+                <li style="padding: 0px; display: block;">HTML/CSS</li>
+                <li style="padding: 0px; display: block;">JavaScript</li>
+                <li style="padding: 0px; display: block;">PHP</li>
+                <li style="padding: 0px; display: block;">WordPress</li>
+                <li style="padding: 0px; display: block;">Adobe Photoshop</li>
+                <li style="padding: 0px; display: block;">Adobe XD</li>
+                <li style="padding: 0px; display: block;">Digital Marketing</li>
+                <li style="padding: 0px; display: block;">Social Media Marketing</li>
+                <li style="padding: 0px; display: block;">Time Management</li>
+                <li style="padding: 0px; display: block;">Creativity</li>
+                <li style="padding: 0px; display: block;">Customer Service</li>
+                <li style="padding: 0px; display: block;">Teamwork</li>
+                <li style="padding: 0px; display: block;">Multitasking</li>
+            </ul>
+        </div><!--close skills-->
+
+        <div id="socialMedia">
+            <a href="https://github.com/darrianpeck"><img src="images/icons/iconmonstr-github-4.svg" style="width: 70px;" ></a>
+            <a href="https://www.linkedin.com/in/darrian-peck-39835814a"><img src="images/icons/iconmonstr-linkedin-4.svg" style="width: 70px;"></a>
+        </div><!--close social media icons-->
+    </div><!--close resume-->
+</body>
+</html>
